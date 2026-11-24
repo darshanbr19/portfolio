@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Darshan B R — AI Systems Developer</title>
+<meta name="description" content="Darshan B R — Final-year ISE undergraduate and aspiring ML Engineer / AI Systems Developer. Portfolio of production-grade AI systems, computer vision, and full-stack projects." />
+<script>
+  try { document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light'); }
+  catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+</script>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ══════════════ NAV ══════════════ -->
+<header class="nav-header" id="nav-header">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">DBR</span>
+      <span class="logo-status"><i class="dot"></i>open to work</span>
+    </a>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Stack</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="theme-switch" role="group" aria-label="Colour theme">
+        <button type="button" data-theme-btn="light"   aria-label="Light theme"   title="Light"></button>
+        <button type="button" data-theme-btn="dark"    aria-label="Dark theme"    title="Dark"></button>
+        <button type="button" data-theme-btn="violet"  aria-label="Violet theme"  title="Violet"></button>
+        <button type="button" data-theme-btn="emerald" aria-label="Emerald theme" title="Emerald"></button>
+      </div>
+      <a href="assets/Darshan_BR_Resume.pdf" class="btn btn-ghost" download>Résumé</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow">/ Final-year ISE — Cambridge Institute of Technology</p>
+        <h1 class="hero-title">
+          Darshan&nbsp;B&nbsp;R
+        </h1>
+        <h2 class="hero-role">
+          <span id="role-typed"></span><span class="type-cursor">_</span>
+        </h2>
+        <p class="hero-desc">
+          I build production-grade AI systems&nbsp;— from deep-learning models that read chest
+          X-rays with clinical-grade accuracy, to autonomous multi-agent pipelines and
+          real-time optimisation platforms. Comfortable across the stack: PyTorch and FastAPI
+          on the backend, React on the front.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View projects →</a>
+          <a href="assets/Darshan_BR_Resume.pdf" class="btn btn-outline" download>Download résumé</a>
+        </div>
+
+        <div class="hero-links">
+          <a href="mailto:darshanbr19@gmail.com">darshanbr19@gmail.com</a>
+          <span class="sep">·</span>
+          <a href="https://www.linkedin.com/in/darshan-b-r-264a35325/" target="_blank" rel="noopener">LinkedIn</a>
+          <span class="sep">·</span>
+          <a href="https://github.com/darshanbr19" target="_blank" rel="noopener">GitHub</a>
+          <span class="sep">·</span>
+          <a href="tel:+916362681124">+91 63626 81124</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="model-card">
+          <div class="model-card-head">
+            <span class="mc-label">student_profile.json</span>
+            <span class="mc-dots"><i></i><i></i><i></i></span>
+          </div>
+
+          <div class="mc-photo-row">
+            <img src="assets/darshan-photo.jpg" alt="Darshan B R" class="mc-photo" />
+            <div class="mc-photo-meta">
+              <p class="mc-name">Darshan B R</p>
+              <p class="mc-sub">B.E · Information Science &amp; Engg.</p>
+              <p class="mc-sub mc-loc">Bangalore, India</p>
+            </div>
+          </div>
+
+          <div class="mc-divider"></div>
+
+          <div class="mc-metrics">
+            <div class="mc-metric">
+              <span class="mc-val" data-count="0.97">0.00</span>
+              <span class="mc-key">AUROC · pneumonia model</span>
+            </div>
+            <div class="mc-metric">
+              <span class="mc-val" data-count="91.4" data-suffix="%">0%</span>
+              <span class="mc-key">Test accuracy</span>
+            </div>
+            <div class="mc-metric">
+              <span class="mc-val" data-count="7.6">0.0</span>
+              <span class="mc-key">CGPA · current</span>
+            </div>
+            <div class="mc-metric">
+              <span class="mc-val" data-count="3">0</span>
+              <span class="mc-key">Major AI/ML systems shipped</span>
+            </div>
+          </div>
+
+          <div class="mc-divider"></div>
+
+          <div class="mc-tags">
+            <span>PyTorch</span><span>FastAPI</span><span>LangChain</span>
+            <span>React</span><span>REST&nbsp;APIs</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hero-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>DENSENET121 + CBAM</span><span>·</span>
+        <span>GRAD-CAM++</span><span>·</span>
+        <span>H3 SPATIAL INDEXING</span><span>·</span>
+        <span>HDBSCAN</span><span>·</span>
+        <span>OR-TOOLS VRP</span><span>·</span>
+        <span>XGBOOST</span><span>·</span>
+        <span>FASTAPI</span><span>·</span>
+        <span>REACT + LEAFLET</span><span>·</span>
+        <span>DENSENET121 + CBAM</span><span>·</span>
+        <span>GRAD-CAM++</span><span>·</span>
+        <span>H3 SPATIAL INDEXING</span><span>·</span>
+        <span>HDBSCAN</span><span>·</span>
+        <span>OR-TOOLS VRP</span><span>·</span>
+        <span>XGBOOST</span><span>·</span>
+        <span>FASTAPI</span><span>·</span>
+        <span>REACT + LEAFLET</span><span>·</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section id="about" class="section">
+    <div class="section-head reveal">
+      <p class="eyebrow">/ About</p>
+      <h2>Systems thinking, applied to real problems</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          I'm a final-year Information Science &amp; Engineering student at Cambridge Institute
+          of Technology, building toward a career as an ML engineer / AI systems developer.
+          My work sits at the intersection of research rigour and production engineering&nbsp;—
+          I care as much about eliminating data leakage in a cross-validation split as I do
+          about shipping a clean API.
+        </p>
+        <p>
+          Recent projects span medical imaging (a DenseNet121 + CBAM pneumonia classifier
+          validated with patient-grouped cross-validation), autonomous multi-agent LLM
+          pipelines, and a spatial-optimisation platform for shared mobility. I'm equally
+          comfortable in PyTorch notebooks and React codebases.
+        </p>
+      </div>
+
+      <div class="about-pillars">
+        <div class="pillar reveal">
+          <span class="pillar-index">ML / DL</span>
+          <h3>Applied Machine Learning</h3>
+          <p>Deep learning for medical imaging, attention mechanisms, rigorous evaluation — cross-validation, calibration, and explainability with Grad-CAM++.</p>
+        </div>
+        <div class="pillar reveal">
+          <span class="pillar-index">Systems</span>
+          <h3>AI Systems &amp; Backend</h3>
+          <p>FastAPI services, multi-agent orchestration, vector memory, and optimisation engines (OR-Tools, spatial clustering) running in real time.</p>
+        </div>
+        <div class="pillar reveal">
+          <span class="pillar-index">Product</span>
+          <h3>Full-Stack Delivery</h3>
+          <p>React interfaces, REST APIs, and relational/vector databases — shipping the whole path from model to dashboard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ SKILLS ══════════════ -->
+  <section id="skills" class="section alt">
+    <div class="section-head reveal">
+      <p class="eyebrow">/ Stack</p>
+      <h2>Technologies I work with</h2>
+    </div>
+
+    <div class="stack-grid">
+      <div class="stack-card reveal">
+        <h3>Languages</h3>
+        <div class="tag-row">
+          <span>Python</span><span>Java</span><span>C</span><span>JavaScript</span>
+        </div>
+      </div>
+
+      <div class="stack-card reveal">
+        <h3>ML / AI Frameworks</h3>
+        <div class="tag-row">
+          <span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span>
+          <span>Hugging&nbsp;Face</span><span>LangChain</span><span>OpenCV</span>
+          <span>MediaPipe</span><span>Captum</span>
+        </div>
+      </div>
+
+      <div class="stack-card reveal">
+        <h3>Web &amp; APIs</h3>
+        <div class="tag-row">
+          <span>REST&nbsp;APIs</span><span>FastAPI</span><span>React</span>
+          <span>Node.js</span><span>Express.js</span><span>HTML</span><span>CSS</span>
+          <span>Streamlit</span>
+        </div>
+      </div>
+
+      <div class="stack-card reveal">
+        <h3>Data &amp; Databases</h3>
+        <div class="tag-row">
+          <span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span>
+          <span>SQLite</span><span>Redis</span><span>ChromaDB</span>
+          <span>FAISS</span><span>Supabase</span><span>NumPy</span><span>Pandas</span>
+        </div>
+      </div>
+
+      <div class="stack-card reveal">
+        <h3>Tools &amp; Platforms</h3>
+        <div class="tag-row">
+          <span>Git</span><span>GitHub</span><span>Docker</span><span>Linux</span>
+          <span>Postman</span><span>VS&nbsp;Code</span><span>Jira</span>
+        </div>
+      </div>
+
+      <div class="stack-card reveal">
+        <h3>Languages Spoken</h3>
+        <div class="tag-row">
+          <span>English</span><span>Hindi</span><span>Kannada</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ PROJECTS ══════════════ -->
+  <section id="projects" class="section">
+    <div class="section-head reveal">
+      <p class="eyebrow">/ Selected Work</p>
+      <h2>Projects</h2>
+    </div>
+
+    <div class="projects-list">
+
+      <!-- Project 1 -->
+      <article class="project-row reveal">
+        <div class="project-meta">
+          <p class="project-period">Jan 2026 — May 2026</p>
+          <p class="project-cat">Medical&nbsp;Imaging&nbsp;· Deep&nbsp;Learning</p>
+        </div>
+        <div class="project-body">
+          <h3>Pneumonia Detection from Chest X-Ray Images</h3>
+          <p>
+            A DenseNet121 + CBAM attention model for chest X-ray pneumonia classification.
+            Trained with patient-grouped Stratified 5-Fold Cross-Validation, Binary Focal Loss,
+            and label smoothing to eliminate data leakage and handle class imbalance. Inference
+            uses a 5-view Test-Time Augmentation ensemble (25 predictions per image) with the
+            optimal decision threshold selected via Youden's J statistic (0.7984).
+          </p>
+          <p>
+            Deployed as a Streamlit app with Grad-CAM++ heatmaps so radiologists can verify
+            model attention on pathologically relevant lung regions before trusting a prediction.
+          </p>
+          <div class="project-metrics">
+            <div><span>0.97</span><small>AUROC</small></div>
+            <div><span>91.4%</span><small>Accuracy</small></div>
+            <div><span>0.93</span><small>F1-score</small></div>
+            <div><span>0.95</span><small>Precision</small></div>
+          </div>
+          <div class="tag-row">
+            <span>Python</span><span>TensorFlow</span><span>DenseNet121</span>
+            <span>CBAM</span><span>Grad-CAM++</span><span>Streamlit</span><span>OpenCV</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-row reveal">
+        <div class="project-meta">
+          <p class="project-period">Jan 2026 — Present</p>
+          <p class="project-cat">Spatial&nbsp;AI&nbsp;· Optimisation</p>
+        </div>
+        <div class="project-body">
+          <h3>SmartRoute AI</h3>
+          <p>
+            An AI-powered shared-mobility optimisation platform. Ride requests are dynamically
+            clustered into virtual pickup points and routed across the road network to minimise
+            total travel distance and operational cost.
+          </p>
+          <ul class="project-points">
+            <li>Spatial clustering &amp; demand forecasting with H3 indexing, HDBSCAN, K-Medoids, and XGBoost.</li>
+            <li>Route optimisation and vehicle assignment via the OR-Tools VRP solver, OpenStreetMap road networks, and the Hungarian Algorithm.</li>
+            <li>Real-time dispatcher dashboard built with React.js and Leaflet for live route visualisation and fleet monitoring.</li>
+          </ul>
+          <div class="tag-row">
+            <span>Python</span><span>FastAPI</span><span>React</span><span>Node.js</span>
+            <span>OR-Tools</span><span>XGBoost</span><span>HDBSCAN</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-row reveal">
+        <div class="project-meta">
+          <p class="project-period">Jan 2024 — Mar 2024</p>
+          <p class="project-cat">Full-Stack&nbsp;· Web</p>
+        </div>
+        <div class="project-body">
+          <h3>E-Commerce Platform</h3>
+          <p>
+            A full-stack e-commerce application enabling end-to-end product browsing and
+            shopping. Built cart and order-management flows with dynamic price calculation,
+            and RESTful APIs backed by MySQL for products, users, and orders.
+          </p>
+          <ul class="project-points">
+            <li>Category filtering, search, and responsive product pages for better discovery.</li>
+            <li>REST API design across product, user, and order resources.</li>
+          </ul>
+          <div class="tag-row">
+            <span>React</span><span>Node.js</span><span>Express.js</span><span>MySQL</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="projects-footer reveal">
+      <a href="https://github.com/darshanbr19" target="_blank" rel="noopener" class="btn btn-ghost">
+        See more on GitHub →
+      </a>
+    </div>
+  </section>
+
+  <!-- ══════════════ EXPERIENCE / EDUCATION ══════════════ -->
+  <section id="experience" class="section alt">
+    <div class="section-head reveal">
+      <p class="eyebrow">/ Path so far</p>
+      <h2>Experience, education &amp; recognition</h2>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <p class="timeline-year">2023 — 2027</p>
+          <h3>B.E, Information Science &amp; Engineering</h3>
+          <p class="timeline-org">Cambridge Institute of Technology, Bangalore · CGPA 7.6</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <p class="timeline-year">2025</p>
+          <h3>Software Development Internship</h3>
+          <p class="timeline-org">Pinnacle Labs</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <p class="timeline-year">2025</p>
+          <h3>1st Prize — Project Exhibition</h3>
+          <p class="timeline-org">Wi-Fi Talking Robot · Dept. of Basic Sciences, CIT</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <p class="timeline-year">2024</p>
+          <h3>Machine Learning Foundation Certificate</h3>
+          <p class="timeline-org">Infosys Springboard</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <p class="timeline-year">2021 — 2023</p>
+          <h3>Pre-University Education</h3>
+          <p class="timeline-org">Master's PU College, Hassan · 87%</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section id="contact" class="section contact-section">
+    <div class="section-head reveal">
+      <p class="eyebrow">/ Get in touch</p>
+      <h2>Let's build something</h2>
+    </div>
+
+    <div class="contact-grid reveal">
+      <p class="contact-lead">
+        Open to ML engineering, AI systems, and full-stack roles &amp; internships.
+        The fastest way to reach me is email — I usually reply within a day.
+      </p>
+
+      <div class="contact-cards">
+        <a href="mailto:darshanbr19@gmail.com" class="contact-card">
+          <span class="cc-label">Email</span>
+          <span class="cc-value">darshanbr19@gmail.com</span>
+        </a>
+        <a href="tel:+916362681124" class="contact-card">
+          <span class="cc-label">Phone</span>
+          <span class="cc-value">+91 63626 81124</span>
+        </a>
+        <a href="https://www.linkedin.com/in/darshan-b-r-264a35325/" target="_blank" rel="noopener" class="contact-card">
+          <span class="cc-label">LinkedIn</span>
+          <span class="cc-value">darshan-b-r-264a35325</span>
+        </a>
+        <a href="https://github.com/darshanbr19" target="_blank" rel="noopener" class="contact-card">
+          <span class="cc-label">GitHub</span>
+          <span class="cc-value">github.com/darshanbr19</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Darshan B R</span>
+  <a href="assets/Darshan_BR_Resume.pdf" download>Download résumé</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
